@@ -1,1 +1,1 @@
-# cs6320project
+# Green Portfolio – ESG Chatbot for Ethical Investing
