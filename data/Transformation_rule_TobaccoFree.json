@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"8687df04-3cad-4220-a108-d9a9409","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: TobaccoFreeFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}

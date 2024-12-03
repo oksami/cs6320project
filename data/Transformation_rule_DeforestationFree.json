@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"9eae13a9-647e-4c65-80f5-ac65659","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: DeforestationFreeFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}

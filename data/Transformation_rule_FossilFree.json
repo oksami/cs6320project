@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"231677b2-3db0-414a-8031-48fb190","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: FossilFreeFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}

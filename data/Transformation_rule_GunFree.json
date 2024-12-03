@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"b2c9ba76-dddb-40c7-9378-7dfa5a4","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: GunFreeFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}

@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"0452804a-6e0c-4147-9041-b4b2f4d","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: GenderEqualityFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}

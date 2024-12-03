@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"fb162d2d-a0ec-46a4-b4b2-6f6da12","startColumn":"A","endColumn":"F","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\n        Types: PrisonFreeFund\n        Facts:\n            Ticker @B*,\n            ShareClassType @C*,\n            CategoryGroup @D*,\n            Grade @E*,\n            Weight @F*","active":true}]}
