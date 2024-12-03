@@ -1,3 +1,63 @@
 # Green Portfolio – ESG Chatbot for Ethical Investing
 ## CS 6320
-https://drive.google.com/drive/folders/1GK3cIgwrFVjkNEwoELFyQfUHylC1pqME?usp=sharing
+Overview
+The ESG Chatbot is a command-line-based assistant designed to help users explore ESG (Environmental, Social, and Governance) compliant investment opportunities. It provides fund recommendations, sentiment analysis for major companies, and visualizations for comparing ESG ratings.
+
+The chatbot leverages Protege ontology for fund classification, rule-based intent recognition, and dynamic querying capabilities.
+
+Functionalities
+Fund Recommendations:
+
+Choose specific ESG criteria like fossil-free, deforestation-free, prison-free, gun-free, weapon-free, gender equality, and tobacco-free funds.
+Specify grades (A, B, C, D, E, F) to tailor your recommendations.
+Sentiment Analysis:
+
+Analyze sentiment for major companies based on ESG-related news.
+ESG Visualizations:
+
+Compare and visualize the ESG ratings of different companies.
+#Project Files
+Python Files:
+Intent_Recognition.py: Identifies user intent (recommendation, sentiment analysis, visualization).
+process_query.py: Extracts the specific ESG criteria and grade from user queries.
+Protege_query.py: Queries the Protege ontology to retrieve funds matching the given criteria and grade.
+sentimentAnalysis.py: Performs sentiment analysis and generates visualizations for ESG comparisons.
+#Data Folder
+Contains:
+ESG scores for major companies.
+Individual CSV files for each ESG criterion (fossil-free, deforestation-free, etc.).
+The cleaned dataset used for querying.
+The Protege ontology (Protege_project.rdf).
+#Other Files
+BERT_Model_&_Testing.ipynb: Demonstrates BERT-based intent recognition (not used in the chatbot) and extracts fund directly from  the csv file based on fund criteria.
+Data_Preprocessing.ipynb: Processes and cleans data (not required during chatbot execution).
+chatbotDemo.mp4: A short demo video showcasing the chatbot's functionalities.
+#How to Run the Chatbot
+Method 1: Using Integrated_chatbot.ipynb
+Use the folder: https://drive.google.com/drive/folders/1GK3cIgwrFVjkNEwoELFyQfUHylC1pqME?usp=sharing
+Open the Integrated_chatbot.ipynb notebook in your preferred environment (e.g., Google Colab or Jupyter Notebook).
+Run all cells sequentially.
+Interact with the chatbot directly in the notebook.
+Method 2: Using main_chatbot.py
+Clone the repository:
+bash
+Copy code
+git clone <repository_url>
+cd <repository_name>
+Ensure all dependencies are installed:
+Run the chatbot directly:
+bash
+Copy code
+python main_chatbot.py
+Interact with the chatbot through the terminal.
+Additional Notes
+The Protege ontology is preloaded in the chatbot for dynamic querying, so there's no need to preprocess data manually.
+#Lessons Learned and Future Work
+Lessons Learned:
+Leveraging ontologies enhanced data efficiency and scalability.
+A rule-based approach was more effective for intent recognition compared to BERT due to the limited dataset.
+Future Work:
+Explore RNN-based classifiers for intent recognition.
+Expand the ontology to include synonyms for better query mapping.
+Integrate fund performance metrics using external APIs.
+
